@@ -3,3 +3,4 @@
 *.swo
 .vercel/
 node_modules/
+.vercel

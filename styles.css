@@ -634,7 +634,26 @@ button {
   display: grid;
   gap: clamp(1.2rem, 3vw, 4rem) var(--grid-gutter);
   grid-column: 1 / -1;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+@media (max-width: 1200px) {
+  .leader-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+.leader-placeholder {
+  align-items: center;
+  aspect-ratio: 1;
+  background:
+    linear-gradient(135deg, rgba(0,0,0,0.05), transparent 60%),
+    linear-gradient(160deg, var(--paper-soft), #d8d2c4);
+  color: rgba(0, 0, 0, 0.35);
+  display: flex;
+  font-family: var(--font-acumin);
+  font-size: clamp(2rem, 3.6vw, 3.4rem);
+  justify-content: center;
+  letter-spacing: -0.02em;
+  width: 100%;
 }
 
 .leader-card {

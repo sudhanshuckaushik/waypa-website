@@ -8,7 +8,7 @@ const assetFiles = [
   "card-next-leaders.jpg",
   "card-healthcare.jpg",
   "card-democracy.jpg",
-  "leader-adboulie.jpg",
+  "leader-abdoulie.jpg",
   "leader-leo.jpg",
   "leader-sia.jpg",
   "leader-fofana.jpg",
@@ -51,7 +51,7 @@ const requiredHtmlSnippets = [
   "The Next Leaders",
   "Youth Health &amp; SRHR Campaign",
   "Youth Democracy Watch",
-  "Hon. Abdoilie Njai",
+  "H.E. Abdoulie Njai",
   "Amb. Leo E. Tiah",
   "secretariat@waypa.org",
 ];
