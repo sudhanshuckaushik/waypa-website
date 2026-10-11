@@ -790,9 +790,8 @@ button {
 .footer-secretariat a:hover { opacity: 0.7; }
 .footer-cyp-logo {
   display: block;
-  height: auto;
-  max-height: 32px;
-  max-width: 160px;
+  height: 26px;
+  max-width: none;
   width: auto;
 }
 
@@ -1541,6 +1540,23 @@ button {
 
 .future-lead p + p {
   margin-top: 1rem;
+}
+
+.future-cyp {
+  display: inline-block;
+  margin-top: 1.5rem;
+  opacity: 0.85;
+  transition: opacity 200ms ease;
+}
+.future-cyp:hover { opacity: 1; }
+.future-cyp img {
+  display: block;
+  height: 32px;
+  max-width: none;
+  width: auto;
+}
+@media (max-width: 760px) {
+  .future-cyp img { height: 28px; }
 }
 
 /* Five generations: the logo's colours handed down the line */
